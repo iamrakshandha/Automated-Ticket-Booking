@@ -1,0 +1,777 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Enter flight details and search",
+        "description": "",
+        "id": "book-flights;enter-flight-details-and-search",
+        "after": [
+          {
+            "result": {
+              "duration": 213508600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBookFlights.afterScenarioFlights()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11815724600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on SpiceJet landing page",
+            "match": {
+              "location": "StepDefinitionBookFlights.user_is_on_spicejet_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6185017500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters flight details and search",
+            "match": {
+              "location": "BookFlights2.user_enters_flight_details_and_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66935700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Respective flights are displayed",
+            "match": {
+              "location": "StepDefinitionBookFlights.respective_flights_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@run"
+          },
+          {
+            "line": 4,
+            "name": "@pre-requisite-flights"
+          },
+          {
+            "line": 5,
+            "name": "@afterScenarioFlights"
+          }
+        ]
+      }
+    ],
+    "name": "Book Flights",
+    "description": "",
+    "id": "book-flights",
+    "keyword": "Feature",
+    "uri": "BookFlights.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Enter hotel details and search",
+        "description": "",
+        "id": "book-hotels;enter-hotel-details-and-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1231430000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionBookHotels.afterScenarioHotels()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11678773300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User on SpiceJet landing page",
+            "match": {
+              "location": "StepDefinitionBookHotels.user_on_spicejet_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210300300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates to book hotels",
+            "match": {
+              "location": "StepDefinitionBookHotels.user_navigates_to_book_hotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6669211000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enters hotel details and search",
+            "match": {
+              "location": "StepDefinitionBookHotels.enters_hotel_details_and_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3157251200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Respective hotels are displayed",
+            "match": {
+              "location": "StepDefinitionBookHotels.respective_hotels_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@run"
+          },
+          {
+            "line": 5,
+            "name": "@pre-requisite-hotels"
+          },
+          {
+            "line": 6,
+            "name": "@afterScenarioHotels"
+          }
+        ]
+      }
+    ],
+    "name": "Book Hotels",
+    "description": "",
+    "id": "book-hotels",
+    "keyword": "Feature",
+    "uri": "BookHotels.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14626565400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.beforeSignup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "SignUp invalid email",
+        "description": "",
+        "id": "login/signup;signup-invalid-email",
+        "after": [
+          {
+            "result": {
+              "duration": 4362975000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.afterScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on signup landing page",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.user_is_on_signup_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4747968800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter invalid user details and submit",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.enter_invalid_user_details_and_submit(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Rakshandha",
+                  "Kannappan",
+                  "Canada",
+                  "8073576926",
+                  "Selenium@1234567",
+                  "Selenium@1234567",
+                  "1990 - 2001",
+                  "16",
+                  "iamrakshandha@gmail"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41040600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Invalid email popup",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.invalid_email_popup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@run"
+          },
+          {
+            "line": 4,
+            "name": "@pre-requisite1"
+          },
+          {
+            "line": 5,
+            "name": "@afterScenarios"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14559495900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.beforeSignup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "SignUp valid email",
+        "description": "",
+        "id": "login/signup;signup-valid-email",
+        "after": [
+          {
+            "result": {
+              "duration": 4376781800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.afterScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on signup landing page",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.user_is_on_signup_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13657078300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter valid user details and submit",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.enter_valid_user_details_and_submit(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Rakshandha",
+                  "Kannappan",
+                  "Canada",
+                  "8073576926",
+                  "Selenium@1234567",
+                  "Selenium@1234567",
+                  "1990 - 2001",
+                  "16",
+                  "iamrakshandha@gmail.com"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79671600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "opt",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.opt()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@run"
+          },
+          {
+            "line": 13,
+            "name": "@pre-requisite1"
+          },
+          {
+            "line": 14,
+            "name": "@afterScenarios"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17664676900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.beforeSignup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "SignUp using existing user deatils",
+        "description": "",
+        "id": "login/signup;signup-using-existing-user-deatils",
+        "after": [
+          {
+            "result": {
+              "duration": 4509960400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.afterScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on signup landing page",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.user_is_on_signup_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 985669700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter existing user details and submit",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.enter_existing_user_details_and_submit(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Rakshandha",
+                  "Kannappan",
+                  "India",
+                  "9003190155"
+                ],
+                "line": 27
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223979300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User already existing popup",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.user_already_existing_popup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@run"
+          },
+          {
+            "line": 22,
+            "name": "@pre-requisite1"
+          },
+          {
+            "line": 23,
+            "name": "@afterScenarios"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13210686100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.beforeLogin()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Login invalid email",
+        "description": "",
+        "id": "login/signup;login-invalid-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4087430100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.afterScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on login landing page",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.user_is_on_login_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3516334000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Enter firstname@gmail.com Selinium@1234567 and user submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firstname@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "Selinium@1234567",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitionLoginSignUp.enter_and_user_submits(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109027700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Login \"Deals\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deals",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitionLoginSignUp.login_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@run"
+          },
+          {
+            "line": 32,
+            "name": "@afterScenarios"
+          },
+          {
+            "line": 31,
+            "name": "@pre-requisite2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12259404600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.beforeLogin()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Login invalid email",
+        "description": "",
+        "id": "login/signup;login-invalid-email;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 150901300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.afterScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on login landing page",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.user_is_on_login_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4085532700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Enter lastname@gmail.com Selinium@1234567 and user submits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lastname@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "Selinium@1234567",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitionLoginSignUp.enter_and_user_submits(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107263600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Login \"Deals\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deals",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitionLoginSignUp.login_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@run"
+          },
+          {
+            "line": 32,
+            "name": "@afterScenarios"
+          },
+          {
+            "line": 31,
+            "name": "@pre-requisite2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13586482200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.beforeLogin()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Login valid email",
+        "description": "",
+        "id": "login/signup;login-valid-email",
+        "after": [
+          {
+            "result": {
+              "duration": 4225500700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionLoginSignUp.afterScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 100900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User is on login landing page",
+            "match": {
+              "location": "StepDefinitionLoginSignUp.user_is_on_login_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16246129300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Enter \"swebdriver1@gmail.com\" and \"Selenium@1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "swebdriver1@gmail.com",
+                  "offset": 7
+                },
+                {
+                  "val": "Selenium@1234567",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitionLoginSignUp.enter_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52280800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Login \"Successful\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Successful",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitionLoginSignUp.login_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@run"
+          },
+          {
+            "line": 44,
+            "name": "@pre-requisite2"
+          },
+          {
+            "line": 45,
+            "name": "@afterScenarios"
+          }
+        ]
+      }
+    ],
+    "name": "Login/SignUp",
+    "description": "",
+    "id": "login/signup",
+    "keyword": "Feature",
+    "uri": "LoginSignUp.feature"
+  }
+]

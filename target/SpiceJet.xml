@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="192.701509">
+<testcase classname="Book Flights" name="Enter flight details and search" time="18.281186">
+<system-out><![CDATA[Given User is on SpiceJet landing page......................................passed
+When User enters flight details and search..................................passed
+Then Respective flights are displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Book Hotels" name="Enter hotel details and search" time="22.946966">
+<system-out><![CDATA[Given User on SpiceJet landing page.........................................passed
+When User navigates to book hotels..........................................passed
+And Enters hotel details and search.........................................passed
+Then Respective hotels are displayed........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/SignUp" name="SignUp invalid email" time="23.778687">
+<system-out><![CDATA[Given User is on signup landing page........................................passed
+When Enter invalid user details and submit..................................passed
+Then Invalid email popup....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/SignUp" name="SignUp valid email" time="32.673095">
+<system-out><![CDATA[Given User is on signup landing page........................................passed
+When Enter valid user details and submit....................................passed
+Then opt....................................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/SignUp" name="SignUp using existing user deatils" time="23.38437">
+<system-out><![CDATA[Given User is on signup landing page........................................passed
+When Enter existing user details and submit.................................passed
+Then User already existing popup............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/SignUp" name="Login invalid email" time="20.923562">
+<system-out><![CDATA[Given User is on login landing page.........................................passed
+When Enter firstname@gmail.com Selinium@1234567 and user submits............passed
+Then Login "Deals"..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/SignUp" name="Login invalid email 2" time="16.603149">
+<system-out><![CDATA[Given User is on login landing page.........................................passed
+When Enter lastname@gmail.com Selinium@1234567 and user submits.............passed
+Then Login "Deals"..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/SignUp" name="Login valid email" time="34.110494">
+<system-out><![CDATA[Given User is on login landing page.........................................passed
+When Enter "swebdriver1@gmail.com" and "Selenium@1234567"...................passed
+Then Login "Successful".....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
